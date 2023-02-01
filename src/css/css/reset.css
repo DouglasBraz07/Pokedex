@@ -1,0 +1,10 @@
+* {  /*tirei as formatações do google */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;/*todo o padding e toda a margin eles vao ficar contidos na largura e na altura do elemento*/
+}
+
+ul{
+    list-style-type: none;/*vai remover os estilos da lista */
+    
+}

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/css/reset.css"><!-- deve ser colocado antes do global isto aqui eu criei so pra tirar as formataçoes padrão do google-->
+    <link rel="stylesheet" href="src/css/css/global.css"><!--esta parte do css eo corpo da pagina-->
+    <link rel="stylesheet" href="src/css/css/cartao.css"><!-- so pra modificar o cartao do pokemon-->
+    <link rel="stylesheet" href="src/css/css/listagem.css"><!-- para modificar a barra de lista do pokemon-->
+    <link rel="stylesheet" href="src/css/css/responsivo.css"><!-- para formatar para poder ver o site pelo celular-->
+    <link rel="shortcut icon" href="src/imagens/pokebola.png"><!-- adicionar imagem ao icone da pagina-->
+    <title>Pokédex</title>
+<!-- coloquei no site google font e selecionei o Poppins e peguei algumas fontes depois so copiei e colei aqui-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Poppins:ital,wght@0,500;0,700;0,800;1,300 & display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="pokedex">
+            <div class="cartoes-pokemon">
+                <div class="cartao-pokemon aberto tipo-eletrico" id="cartao-pikachu"> <!-- esta div sera pra pegar so os status do cartao do pokemon-->
+                <div class="cartao-topo">
+                    <div class="detalhes">
+                        <h2 class="nome">Pikachu</h2>
+                        <span>#001</span>
+                    </div>
+                    <span class="tipo">Eletrico</span>
+
+                    <div class="cartao-imagem">
+                        <img src="src/imagens/pikachu.png" alt="imagem do pikachu">
+                    </div>
+                </div>
+
+                <div class="cartao-informacoes">
+                    <div class="status">
+                        <h3>Status</h3>
+
+                        <ul>
+                            <li>HP: 300</li>
+                            <li>Ataque: 600</li>
+                            <li>Defesa: 500</li>
+                            <li>Velocidade: 350</li>
+                            <li>Total: 1750</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="habilidades">
+                       <h3>habilidades</h3> 
+                       <ul> <!--  ul>li*2  posso fazer assim pra criar uma ul li mais rapido caso queira visualizar e so colocar o cursos no finakl e apaertar crtl espaço-->
+                           <li>Choque do trovão</li> 
+                           <li>Cabeçada</li>
+                       </ul>
+
+                    </div>
+                    </div>
+                </div>
+                <div class="cartao-pokemon tipo-grama" id="cartao-bulbasauro"> <!-- copiei e colei a divi 6 vezes so fiz alterar as informaçoes e imagens-->
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Bulbasauro</h2>
+                            <span>#002</span>
+                        </div>
+                        <span class="tipo">Grama</span>
+    
+                        <div class="cartao-imagem">
+                            <img src="src/imagens/bulbasaur.png" alt="imagem do bulbasauro">
+                        </div>
+                    </div>
+    
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+    
+                            <ul>
+                                <li>HP: 320</li>
+                                <li>Ataque: 510</li>
+                                <li>Defesa: 400</li>
+                                <li>Velocidade: 200</li>
+                                <li>Total: 1430</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="habilidades">
+                           <h3>habilidades</h3> 
+                           <ul> <!--  ul>li*2  posso fazer assim pra criar uma ul li mais rapido caso queira visualizar e so colocar o cursos no finakl e apaertar crtl espaço-->
+                               <li>Folha navalha</li> 
+                               <li>Raio solar</li>
+                           </ul>
+    
+                        </div>
+                        </div>
+                 </div>
+                <div class="cartao-pokemon tipo-fogo" id="cartao-charmander">
+                        <div class="cartao-topo">
+                            <div class="detalhes">
+                                <h2 class="nome">charmander</h2>
+                                <span>#003</span>
+                            </div>
+                            <span class="tipo">Fogo</span>
+        
+                            <div class="cartao-imagem">
+                                <img src="src/imagens/charmander.png" alt="imagem do charmander">
+                            </div>
+                        </div>
+        
+                        <div class="cartao-informacoes">
+                            <div class="status">
+                                <h3>Status</h3>
+        
+                                <ul>
+                                    <li>HP: 200</li>
+                                    <li>Ataque: 300</li>
+                                    <li>Defesa: 400</li>
+                                    <li>Velocidade: 320</li>
+                                    <li>Total: 1220</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="habilidades">
+                               <h3>habilidades</h3> 
+                               <ul> <!--  ul>li*2  posso fazer assim pra criar uma ul li mais rapido caso queira visualizar e so colocar o cursos no finakl e apaertar crtl espaço-->
+                                   <li>Lança-chamas</li> 
+                                   <li>Cabeçada</li>
+                               </ul>
+        
+                            </div>
+                            </div>
+                </div>
+                <div class="cartao-pokemon tipo-trevas" id="cartao-gengar">
+                            <div class="cartao-topo">
+                                <div class="detalhes">
+                                    <h2 class="nome">Gengar</h2>
+                                    <span>#004</span>
+                                </div>
+                                <span class="tipo">Trevas</span>
+            
+                                <div class="cartao-imagem">
+                                    <img src="src/imagens/gengar.png" alt="imagem do gengar">
+                                </div>
+                            </div>
+            
+                            <div class="cartao-informacoes">
+                                <div class="status">
+                                    <h3>Status</h3>
+            
+                                    <ul>
+                                        <li>HP: 100</li>
+                                        <li>Ataque: 200</li>
+                                        <li>Defesa: 300</li>
+                                        <li>Velocidade: 400</li>
+                                        <li>Total: 1000</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="habilidades">
+                                   <h3>habilidades</h3> 
+                                   <ul> <!--  ul>li*2  posso fazer assim pra criar uma ul li mais rapido caso queira visualizar e so colocar o cursos no finakl e apaertar crtl espaço-->
+                                       <li>Bola sombria</li> 
+                                       <li>Lambida</li>
+                                   </ul>
+            
+                                </div>
+                                </div>
+                </div>
+                <div class="cartao-pokemon tipo-agua" id="cartao-gyarados">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Gyarados</h2>
+                            <span>#005</span>
+                        </div>
+                        <span class="tipo">Aquatico</span>
+    
+                        <div class="cartao-imagem">
+                            <img src="src/imagens/gyarados.png" alt="imagem do gyarados">
+                        </div>
+                    </div>
+    
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+    
+                            <ul>
+                                <li>HP: 550</li>
+                                <li>Ataque: 780</li>
+                                <li>Defesa: 620</li>
+                                <li>Velocidade: 310</li>
+                                <li>Total: 2260</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="habilidades">
+                           <h3>habilidades</h3> 
+                           <ul> <!--  ul>li*2  posso fazer assim pra criar uma ul li mais rapido caso queira visualizar e so colocar o cursos no finakl e apaertar crtl espaço-->
+                               <li>Jato d´agua</li> 
+                               <li>Hidro bomba</li>
+                           </ul>
+    
+                        </div>
+                        </div>
+                </div>
+                <div class="cartao-pokemon tipo-dragao" id="cartao-dragonite">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Dragonite</h2>
+                            <span>#006</span>
+                        </div>
+                        <span class="tipo">Dragão</span>
+    
+                        <div class="cartao-imagem">
+                            <img src="src/imagens/dragonite.png" alt="imagem do dragonite">
+                        </div>
+                    </div>
+    
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+    
+                            <ul>
+                                <li>HP: 600</li>
+                                <li>Ataque: 810</li>
+                                <li>Defesa: 500</li>
+                                <li>Velocidade: 500</li>
+                                <li>Total: 2410</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="habilidades">
+                           <h3>habilidades</h3> 
+                           <ul> <!--  ul>li*2  posso fazer assim pra criar uma ul li mais rapido caso queira visualizar e so colocar o cursos no finakl e apaertar crtl espaço-->
+                               <li>Dança do dragão</li> 
+                               <li>Velocidade extrema</li>
+                           </ul>
+    
+                        </div>
+                        </div>
+                </div>
+                <div class="cartao-pokemon tipo-agua" id="cartao-blastoise">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Blastoise</h2>
+                            <span>#007</span>
+                        </div>
+                        <span class="tipo">Aquatico</span>
+    
+                        <div class="cartao-imagem">
+                            <img src="src/imagens/blastoise.png" alt="imagem do gyarados">
+                        </div>
+                    </div>
+    
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+    
+                            <ul>
+                                <li>HP: 2000</li>
+                                <li>Ataque: 970</li>
+                                <li>Defesa: 890</li>
+                                <li>Velocidade: 655</li>
+                                <li>Total: 4515</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="habilidades">
+                           <h3>habilidades</h3> 
+                           <ul> <!--  ul>li*2  posso fazer assim pra criar uma ul li mais rapido caso queira visualizar e so colocar o cursos no finakl e apaertar crtl espaço-->
+                               <li>Hidro canhão</li> 
+                               <li>Raio de gelo</li>
+                           </ul>
+    
+                        </div>
+                        </div>
+                </div>
+                </div>
+
+                <nav class="listagem">
+                    <ul>
+                        <li class="pokemon ativo" id="pikachu">  <!-- esta parte ira ficar ao lado do cartao pokemon com os icones dos pokemons-->
+                            <img src="src/imagens/cabeca-pikachu.png" 
+                            alt="cabeça do pikachu">
+                            <span>Pikachu</span>
+                        </li>
+                        <li class="pokemon" id="bulbasauro"> <!-- ul>li*2  isto seria um atalho para que possa fazer quantas ul li quiser so e alterar o numero de 2 pra quantas quiser-->
+                            <img src="src/imagens/cabeca-bulbasaur.png" 
+                            alt="cabeça do bulbasauro">
+                            <span>Bulbasauro</span>
+                        </li>
+                        <li class="pokemon" id="charmander">
+                            <img src="src/imagens/cabeca-charmander.png" 
+                            alt="cabeça do charmander">
+                            <span>charmander</span>
+                        </li>
+                        <li class="pokemon" id="gengar">
+                            <img src="src/imagens/cabeca-gengar.png" 
+                            alt="cabeça do gengar">
+                            <span>gengar</span>
+                        </li>
+                        <li class="pokemon" id="gyarados">
+                            <img src="src/imagens/cabeca-gyarados.png" 
+                            alt="cabeça do gyarados">
+                            <span>Gyarados</span>
+                        </li>
+                        <li class="pokemon" id="dragonite">
+                            <img src="src/imagens/cabeca-dragonite.png" 
+                            alt="cabeça do dragonite">
+                            <span>Dragonite</span>
+                        </li>
+                        <li class="pokemon" id="blastoise">
+                            <img src="src/imagens/cabeca-blastoise.png" 
+                            alt="cabeça do dragonite">
+                            <span>Blastoise</span>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </main>
+    
+<!--o java script abrindo no final ele carrega normalmente e não trava caso coloque no head ele nao funciona ou nao carrega direito-->
+    <script src="src/js/index.js"></script>
+</body>
+</html>

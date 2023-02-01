@@ -1,0 +1,19 @@
+body{ /* copiei do site do goglle font e colei aqui lembrando que vai estar em pt-br por isto mude para ingles*/
+    font-family: 'poppins', sans-serif;
+}
+
+main {/* todo a tag main do html */
+    min-height: 100vh;/* 100 da tela do usuario*/
+    background-color: aquamarine;/*cor de fundo por tras do elemento que esta estiizando */
+    display: flex;/* serve para ter toda a area main mais flexivel*/
+    align-items: center;/* itens dentro do main fiquem alinhados no centro*/
+    justify-content: center;  
+    background-color: #dadfe8;
+}
+
+.pokedex {/*estilizando uma div quando tem uma class devesse colocar um ( . ) na frente */
+    display: flex;
+    gap: 30px;/*dar um expaçamento entre os elementos cartoes-pokemons e listagem*/
+    padding: 30px 0;/*dar um espaçamento interno do elemento, margin eo espaçamento externo entre elementos*/
+
+}
