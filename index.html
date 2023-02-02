@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/css/reset.css"><!-- deve ser colocado antes do global isto aqui eu criei so pra tirar as formataçoes padrão do google-->
-    <link rel="stylesheet" href="src/css/css/global.css"><!--esta parte do css eo corpo da pagina-->
-    <link rel="stylesheet" href="src/css/css/cartao.css"><!-- so pra modificar o cartao do pokemon-->
-    <link rel="stylesheet" href="src/css/css/listagem.css"><!-- para modificar a barra de lista do pokemon-->
-    <link rel="stylesheet" href="src/css/css/responsivo.css"><!-- para formatar para poder ver o site pelo celular-->
-    <link rel="shortcut icon" href="src/imagens/pokebola.png"><!-- adicionar imagem ao icone da pagina-->
+    <link rel="stylesheet" href="src/css/css/reset.css">
+    <link rel="stylesheet" href="src/css/css/global.css">
+    <link rel="stylesheet" href="src/css/css/cartao.css">
+    <link rel="stylesheet" href="src/css/css/listagem.css">
+    <link rel="stylesheet" href="src/css/css/responsivo.css">
+    <link rel="shortcut icon" href="src/imagens/pokebola.png">
     <title>Pokédex</title>
-<!-- coloquei no site google font e selecionei o Poppins e peguei algumas fontes depois so copiei e colei aqui-->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https: //fonts.googleapis.com/css2? family= Poppins:ital,wght@0,500;0,700;0,800;1,300 & display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
     <main>
         <div class="pokedex">
             <div class="cartoes-pokemon">
-                <div class="cartao-pokemon aberto tipo-eletrico" id="cartao-pikachu"> <!-- esta div sera pra pegar so os status do cartao do pokemon-->
+                <div class="cartao-pokemon aberto tipo-eletrico" id="cartao-pikachu"> 
                 <div class="cartao-topo">
                     <div class="detalhes">
                         <h2 class="nome">Pikachu</h2>
@@ -47,7 +47,7 @@
                     
                     <div class="habilidades">
                        <h3>habilidades</h3> 
-                       <ul> <!--  ul>li*2  posso fazer assim pra criar uma ul li mais rapido caso queira visualizar e so colocar o cursos no finakl e apaertar crtl espaço-->
+                       <ul> 
                            <li>Choque do trovão</li> 
                            <li>Cabeçada</li>
                        </ul>
@@ -55,7 +55,7 @@
                     </div>
                     </div>
                 </div>
-                <div class="cartao-pokemon tipo-grama" id="cartao-bulbasauro"> <!-- copiei e colei a divi 6 vezes so fiz alterar as informaçoes e imagens-->
+                <div class="cartao-pokemon tipo-grama" id="cartao-bulbasauro"> 
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Bulbasauro</h2>
@@ -83,7 +83,7 @@
                         
                         <div class="habilidades">
                            <h3>habilidades</h3> 
-                           <ul> <!--  ul>li*2  posso fazer assim pra criar uma ul li mais rapido caso queira visualizar e so colocar o cursos no finakl e apaertar crtl espaço-->
+                           <ul> 
                                <li>Folha navalha</li> 
                                <li>Raio solar</li>
                            </ul>
@@ -119,7 +119,7 @@
                             
                             <div class="habilidades">
                                <h3>habilidades</h3> 
-                               <ul> <!--  ul>li*2  posso fazer assim pra criar uma ul li mais rapido caso queira visualizar e so colocar o cursos no finakl e apaertar crtl espaço-->
+                               <ul> 
                                    <li>Lança-chamas</li> 
                                    <li>Cabeçada</li>
                                </ul>
@@ -155,7 +155,7 @@
                                 
                                 <div class="habilidades">
                                    <h3>habilidades</h3> 
-                                   <ul> <!--  ul>li*2  posso fazer assim pra criar uma ul li mais rapido caso queira visualizar e so colocar o cursos no finakl e apaertar crtl espaço-->
+                                   <ul>
                                        <li>Bola sombria</li> 
                                        <li>Lambida</li>
                                    </ul>
@@ -191,7 +191,7 @@
                         
                         <div class="habilidades">
                            <h3>habilidades</h3> 
-                           <ul> <!--  ul>li*2  posso fazer assim pra criar uma ul li mais rapido caso queira visualizar e so colocar o cursos no finakl e apaertar crtl espaço-->
+                           <ul> 
                                <li>Jato d´agua</li> 
                                <li>Hidro bomba</li>
                            </ul>
@@ -227,7 +227,7 @@
                         
                         <div class="habilidades">
                            <h3>habilidades</h3> 
-                           <ul> <!--  ul>li*2  posso fazer assim pra criar uma ul li mais rapido caso queira visualizar e so colocar o cursos no finakl e apaertar crtl espaço-->
+                           <ul> 
                                <li>Dança do dragão</li> 
                                <li>Velocidade extrema</li>
                            </ul>
@@ -263,7 +263,7 @@
                         
                         <div class="habilidades">
                            <h3>habilidades</h3> 
-                           <ul> <!--  ul>li*2  posso fazer assim pra criar uma ul li mais rapido caso queira visualizar e so colocar o cursos no finakl e apaertar crtl espaço-->
+                           <ul> 
                                <li>Hidro canhão</li> 
                                <li>Raio de gelo</li>
                            </ul>
@@ -275,12 +275,12 @@
 
                 <nav class="listagem">
                     <ul>
-                        <li class="pokemon ativo" id="pikachu">  <!-- esta parte ira ficar ao lado do cartao pokemon com os icones dos pokemons-->
+                        <li class="pokemon ativo" id="pikachu"> 
                             <img src="src/imagens/cabeca-pikachu.png" 
                             alt="cabeça do pikachu">
                             <span>Pikachu</span>
                         </li>
-                        <li class="pokemon" id="bulbasauro"> <!-- ul>li*2  isto seria um atalho para que possa fazer quantas ul li quiser so e alterar o numero de 2 pra quantas quiser-->
+                        <li class="pokemon" id="bulbasauro">
                             <img src="src/imagens/cabeca-bulbasaur.png" 
                             alt="cabeça do bulbasauro">
                             <span>Bulbasauro</span>
@@ -316,7 +316,6 @@
         </div>
     </main>
     
-<!--o java script abrindo no final ele carrega normalmente e não trava caso coloque no head ele nao funciona ou nao carrega direito-->
     <script src="src/js/index.js"></script>
 </body>
 </html>
